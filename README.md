@@ -4,7 +4,7 @@ O VIAS CNT é um aplicativo mobile que permite preenchimento de dados online e o
 
 ## Tecnologias
 
-O VIAS CNT é um aplicativo Offline First, desenvolvido com Flutter no frontend e consome recursos hospedados no Firebase. O banco de dados NoSQL, o Firestore, permite persistência de dados mesmo sem conexão com a internet, ele mantém as informações armazenadas no dispositivo móvel e quando a conexão com a internet é estabelecida, todos os dados são enviados para o Firestore.
+O VIAS CNT é um aplicativo Offline First, desenvolvido com Flutter no front-end e consome recursos hospedados no Firebase. O banco de dados NoSQL, o Firestore, permite persistência de dados mesmo sem conexão com a internet, ele mantém as informações armazenadas no dispositivo móvel e quando a conexão com a internet é estabelecida, todos os dados são enviados para o Firestore.
 
 Stack:
 
