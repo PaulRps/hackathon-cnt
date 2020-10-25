@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:hackathon_cnt/screens/form_screen.dart';
-import 'package:hackathon_cnt/screens/home_screen.dart';
+import 'package:hackathon_cnt/screens/highway_form_screen.dart';
+import 'package:hackathon_cnt/screens/highways_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: HomeScreen.routeName,
+      initialRoute: HighwaysScreen.routeName,
       routes: {
-        HomeScreen.routeName: (context) => HomeScreen(),
-        FormScreen.routeName: (context) => FormScreen(),
+        HighwaysScreen.routeName: (context) => HighwaysScreen(),
+        HighwayFormScreen.routeName: (context) => HighwayFormScreen(),
       },
     );
   }
