@@ -11,5 +11,6 @@ Stack:
 - Flutter
 - Firebase
 
-
-![flutter + firebase](https://i.imgur.com/kctDBL7.png)
+<p align="center">
+  <img width="250" height="auto" src="https://i.imgur.com/kctDBL7.png">
+</p>
