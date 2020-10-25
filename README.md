@@ -10,5 +10,3 @@ Stack:
 
 - Flutter
 - Firebase
-
-## Roadmap
